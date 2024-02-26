@@ -1,0 +1,29 @@
+<section class="all-courses">
+  <app-background-image title="Our Courses"></app-background-image>
+
+  <section class="course-single my-5">
+    <div class="container mb-5">
+      <h1 class="text-center">Popular Program</h1>
+      <div class="select d-flex justify-content-center my-5">
+        <ul class="d-flex justify-content-center gap-4 p-0">
+          <li
+            *ngFor="let i of singlecourse"
+            [class.activetab]="currentcourse == i"
+            (click)="setcurrenttab(i)"
+            class="px-2 py-1 rounded-1"
+          >
+            {{ i }}
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <app-single-course
+          *ngFor="let i of suballdata"
+          [singledata]="i"
+          class="col-lg-4 mb-4"
+        ></app-single-course>
+      </div>
+
+    </div>
+  </section>
+</section>

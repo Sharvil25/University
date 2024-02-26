@@ -1,0 +1,76 @@
+.two-image::before {
+  content: "";
+  background: linear-gradient(rgba(23, 47, 72, 0.871), rgba(23, 47, 72, 0.871)),
+    url(/assets/Image/back.png.webp);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  z-index: -1;
+}
+.two-image::after {
+  content: "";
+  background: url(/assets/Image/bag.png.webp);
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  z-index: -1;
+}
+
+.lft-course {
+  font-family: "Abril Fatface";
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.left-course {
+  color: white;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+
+.para1 {
+  font-size: 22px;
+}
+
+.icon-lab i {
+  font-size: 30px;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #357ed7;
+  background-color: white;
+}
+
+.icon-lab h2 {
+  font-family: "Abril Fatface";
+  font-weight: 600;
+}
+
+.icon-lab p {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+
+
+.icon-lab button {
+  font-size: 18px;
+  padding: 10px 60px;
+  color: #1fc2d9;
+  border-color: #1fc2d9;
+  background: transparent;
+  border: 1px solid;
+}
+
+.icon-lab button:hover {
+  color: white;
+  background-color: #1fc2d9;
+  border: none;
+}

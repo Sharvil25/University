@@ -1,0 +1,61 @@
+.form-all::before {
+  content: "";
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: url(/assets/Image/student.webp);
+  width: 40%;
+}
+
+.form-all::after {
+  content: "";
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(rgba(23, 47, 72, 0.871), rgba(23, 47, 72, 0.871)),
+    url(/assets/Image/anothers.webp);
+  width: 60%;
+  z-index: -1;
+}
+.form-all {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+.form-all,
+.form-all ::placeholder {
+  color: white;
+}
+.form-all form input,
+.form-all form textarea {
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #7b7e8d;
+  background: transparent;
+  outline: none;
+}
+.form-all button {
+  font-size: 18px;
+  padding: 15px 40px;
+  color: white;
+  background-color: #1fc2d9;
+  border: 1px solid #1fc2d9;
+  width: 200px;
+  border-radius: 8px;
+}
+.form-admission h1 {
+  font-family: "Abril Fatface";
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.form-all button:hover {
+  color: #1fc2d9;
+
+  background-color: white;
+}

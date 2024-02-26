@@ -1,0 +1,48 @@
+.re-all {
+  margin-bottom: 100px;
+}
+
+.recent-data h1 {
+  font-size: 60px;
+  font-family: "Abril Fatface";
+  color: #234262;
+  font-weight: bold;
+}
+
+.recent-data .head-para {
+  font-size: 20px;
+  color: #7d84ab;
+}
+
+.dates h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.dates p {
+  font-size: 20px;
+}
+
+.left-date {
+  color: white;
+}
+
+.cont-recent {
+  border: 1px solid #e0e0e0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.location-para {
+  color: #7d84ab;
+}
+
+.head-para h2 a {
+  font-family: "Abril Fatface";
+  color: #234262;
+  font-weight: bolder;
+  font-size: 35px;
+  text-decoration: none;
+}

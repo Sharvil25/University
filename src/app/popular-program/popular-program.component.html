@@ -1,0 +1,30 @@
+<section class="course-single">
+  <div class="container mb-5">
+    <h1 class="text-center">Popular Program</h1>
+    <div class="select d-flex justify-content-center my-5">
+      <ul class="d-flex justify-content-center gap-4 p-0">
+        <li
+          *ngFor="let i of singlecourse"
+          [class.activetab]="currentcourse == i"
+          (click)="setcurrenttab(i)"
+          class="px-2 py-1 rounded-1"
+        >
+          {{ i }}
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <app-single-course
+        *ngFor="let i of suballdata"
+        [singledata]="i"
+        class="col-lg-4 mb-3"
+      ></app-single-course>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center main-course">
+    <div class="course-link">
+      <a routerLink="/Courses">VIEW ALL COURSES</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+.contact {
+  margin-bottom: 150px;
+}
+
+.form-datas textarea,
+input {
+  width: 100%;
+  border: 1px solid #f0e9ff;
+}
+
+.form-datas input {
+  padding: 10px;
+}
+
+.form-datas textarea {
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 200px;
+}
+
+.snd-msg button {
+  padding: 15px 50px;
+  background-color: white;
+  color: #1fc2d9;
+  border: 1px solid #1fc2d9;
+  font-size: 16px;
+}
+
+.snd-msg button:hover {
+  background-color: #1fc2d9;
+  color: white;
+}
+
+.cont-data h4 {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.icon-last i {
+  font-size: 30px;
+  color: #8f9195;
+}
+
+.para-name h6 {
+  font-size: 20px;
+}
+
+.para-name p {
+  color: #8f9195;
+  font-size: 18px;
+}

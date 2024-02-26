@@ -1,0 +1,46 @@
+.course-single {
+  margin-bottom: 100px;
+}
+
+.select ul {
+  list-style-type: none;
+}
+
+.select li {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.select ul {
+  background: #f8fafe;
+}
+
+.activetab {
+  background-color: var(--dark-blue);
+}
+
+.select li {
+  cursor: pointer;
+}
+
+.container h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Abril Fatface";
+  color: #234262;
+}
+
+.course-link a:hover {
+  background-color: #77899d;
+  border: none;
+  color: white;
+}
+
+.course-link a {
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid;
+  color: black;
+  border-color: black;
+  padding: 15px 40px;
+}

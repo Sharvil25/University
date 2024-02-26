@@ -1,0 +1,280 @@
+<section class="single-blog">
+  <app-background-image title="SingleBlog"></app-background-image>
+</section>
+
+<section class="single-data">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="main-single">
+          <img src="/assets/Image/mainsingle.webp" />
+        </div>
+        <div class="same-icon py-4">
+          <h3>
+            Second divided from form fish beast made every of seas all gathered
+            us saying he our
+          </h3>
+          <div class="d-flex sub-travel">
+            <div class="travel-life">
+              <i class="fa-solid fa-user px-2"></i><span>Travel,Lifestyle</span>
+            </div>
+
+            <div><span class="px-2">|</span></div>
+
+            <div class="three-cmmnt">
+              <i class="fa-solid fa-comment px-2"></i><span>03 Comments</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="two-para py-4">
+          <p>
+            MCSE boot camps have its supporters and its detractors. Some people
+            do not understand why you should have to spend money on boot camp
+            when you can get the MCSE study materials yourself at a fraction of
+            the camp price. However, who has the willpower
+          </p>
+
+          <p>
+            MCSE boot camps have its supporters and its detractors. Some people
+            do not understand why you should have to spend money on boot camp
+            when you can get the MCSE study materials yourself at a fraction of
+            the camp price. However, who has the willpower to actually sit
+            through a self-imposed MCSE training. who has the willpower to
+            actually
+          </p>
+        </div>
+
+        <div class="parent-para p-4 mb-4">
+          <div class="sub-para p-4">
+            <p class="mb-0">
+              MCSE boot camps have its supporters and its detractors. Some
+              people do not understand why you should have to spend money on
+              boot camp when you can get the MCSE study materials yourself at a
+              fraction of the camp price. However, who has the willpower to
+              actually sit through a self-imposed MCSE training.
+            </p>
+          </div>
+        </div>
+
+        <div class="both-para py-4">
+          <p>
+            MCSE boot camps have its supporters and its detractors. Some people
+            do not understand why you should have to spend money on boot camp
+            when you can get the MCSE study materials yourself at a fraction of
+            the camp price. However, who has the willpower
+          </p>
+          <p>
+            MCSE boot camps have its supporters and its detractors. Some people
+            do not understand why you should have to spend money on boot camp
+            when you can get the MCSE study materials yourself at a fraction of
+            the camp price. However, who has the willpower to actually sit
+            through a self-imposed MCSE training. who has the willpower to
+            actually
+          </p>
+        </div>
+
+        <div class="py-4">
+          <div class="d-flex justify-content-between lily-people">
+            <p><i class="fa-solid fa-heart"></i> Lily and 4 people like this</p>
+
+            <div class="d-flex gap-3 ico-all">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-behance"></i>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between py-5 all-cont-para">
+            <div class="d-flex">
+              <div class="position-relative post-slide">
+                <img src="/assets/Image/preview.png.webp" />
+                <div class="hover-arrow">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </div>
+              </div>
+              <div class="prev-post px-4">
+                <p class="mb-0">Prev Post</p>
+                <h5>Space The Final Frontier</h5>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="prev-post px-4">
+                <p class="mb-0">Next Post</p>
+                <h5>Telescopes 101</h5>
+              </div>
+
+              <div class="position-relative post-slide">
+                <img src="/assets/Image/next.png.webp" />
+                <div class="hover-arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex round-img p-5">
+          <div class="">
+            <img src="/assets/Image/author.png.webp" />
+          </div>
+          <div class="px-4 harvard">
+            <h4>Harvard milan</h4>
+            <p>
+              Second divided from form fish beast made. Every of seas all
+              gathered use saying you're, he our dominion twon Second divided
+              from
+            </p>
+          </div>
+        </div>
+
+        <div class="row new-cmnt py-5">
+          <h4 class="py-4">05 Comments</h4>
+          <div class="d-flex three-circle py-3" *ngFor="let i of comments">
+            <img [src]="i.img" />
+            <div class="ps-4 side-para">
+              <p class="side-parass">{{ i.para }}</p>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex gap-4 align-items-center name-three">
+                  <h6>{{ i.name }}</h6>
+                  <p class="mb-0">{{ i.month }}</p>
+                </div>
+                <h6>{{ i.rply }}</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="row form-datas py-5">
+          <h4 class="py-5">Leave A Reply</h4>
+
+          <div class="col-lg-12">
+            <textarea>Write a comment</textarea>
+          </div>
+
+          <div class="col-lg-6 py-5">
+            <input type="text" placeholder="Name" />
+          </div>
+
+          <div class="col-lg-6 py-5">
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="col-lg-12">
+            <input type="text" placeholder="Website" />
+          </div>
+
+          <div class="py-5 snd-msg">
+            <button type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-4 right-task">
+        <div class="search py-4 text-center">
+          <div class="sea-key">
+            <input type="text" placeholder="Search Keyword" />
+          </div>
+
+          <div class="pt-4 btn-search">
+            <button type="submit">SEARCH</button>
+          </div>
+        </div>
+
+        <div class="Category my-4 py-4">
+          <h4 class="py-3">Category</h4>
+          <ul class="ps-0 pt-2">
+            <li *ngFor="let i of fooddata" class="py-3">
+              {{ i.name }} ({{ i.count }})
+            </li>
+          </ul>
+        </div>
+
+        <div class="recent-post py-4">
+          <h4 class="py-3">Recent Post</h4>
+          <div>
+            <div
+              class="d-flex align-items-center gap-3 mb-2 pt-3"
+              *ngFor="let i of recentpost"
+            >
+              <img [src]="i.img" />
+              <div class="astro">
+                <p class="mb-0 tele">
+                  {{ i.name }}
+                </p>
+                <p class="mb-0 timeall">
+                  {{ i.date }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clouds my-4 py-4">
+          <h4 class="py-3">Tag Clouds</h4>
+          <ul class="ps-0">
+            <div class="d-flex gap-2 first-rowss pt-4 pb-2">
+              <li>Project</li>
+              <li>Love</li>
+              <li>Technology</li>
+            </div>
+
+            <div class="d-flex gap-2 second-rowss pb-2">
+              <li>travel</li>
+              <li>restaurant</li>
+            </div>
+
+            <div class="d-flex gap-2 third-rowss pb-2">
+              <li>life style</li>
+              <li>design</li>
+            </div>
+
+            <div class="fourth-rowss d-flex pb-2">
+              <li>illustration</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="row feeds-insta my-4 py-4">
+          <h4 class="py-3">Instagram Feeds</h4>
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/feedsflower.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/returnfeed.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/feedstree.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/paint.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/van.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/glasstea.webp" />
+          </div>
+        </div>
+
+        <div class="search py-4">
+          <h4 class="py-3 news">Newsletter</h4>
+          <div class="sea-key pt-4">
+            <input type="text" placeholder="Enter Email" />
+          </div>
+
+          <div class="pt-4 btn-searchi">
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

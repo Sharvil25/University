@@ -1,0 +1,362 @@
+.single-blog {
+  margin-bottom: 150px;
+}
+
+.single-data {
+  margin-bottom: 150px;
+}
+
+.main-single img {
+  width: 100%;
+}
+
+.parent-para {
+  background: rgba(130, 139, 178, 0.1);
+}
+
+.sub-para {
+  background-color: white;
+  border-left: 2px solid rgb(136, 136, 136);
+}
+
+.round-img img {
+  height: 100px;
+  width: 100px;
+}
+
+.travel-life:hover i,
+.travel-life:hover span {
+  color: #007bff;
+}
+
+.same-icon h3 {
+  font-weight: 600;
+  color: rgb(35, 66, 98);
+}
+
+.three-cmmnt:hover i,
+.three-cmmnt:hover span {
+  color: #007bff;
+}
+
+.sub-travel i,
+span {
+  color: #999999;
+}
+
+.sub-para p {
+  font-size: 18px;
+  font-style: italic;
+  color: #888888;
+}
+
+.two-para p {
+  font-size: 18px;
+  color: #7d84ab;
+}
+
+.both-para p {
+  font-size: 18px;
+  color: #7d84ab;
+}
+
+.both-para {
+  border-bottom: 1px solid #f0e9ff;
+}
+
+.lily-people p,
+i {
+  color: #7d84ab;
+}
+
+.ico-all i {
+  color: #999999;
+}
+
+.prev-post p {
+  color: #7d84ab;
+  font-size: 18px;
+}
+
+.prev-post h5:hover {
+  color: #007bff;
+}
+
+.all-cont-para {
+  border-bottom: 1px solid #f0e9ff;
+}
+
+.round-img {
+  background-color: #fbf9ff;
+}
+
+.hover-arrow {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background-color: #000000a3;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.hover-arrow i {
+  transition: all 0.3s ease;
+  color: white;
+}
+.hover-arrow i:hover {
+  color: #007bff;
+}
+
+.post-slide:hover .hover-arrow {
+  display: flex;
+}
+
+.harvard h4:hover {
+  color: #007bff;
+}
+
+.harvard p {
+  font-size: 18px;
+  color: #7d84ab;
+}
+
+.three-circle img {
+  height: 70px;
+  width: 70px;
+}
+
+.side-parass {
+  font-size: 18px;
+  color: #7d84ab;
+}
+
+.name-three h6 {
+  font-size: 20px;
+  color: #666666;
+}
+
+.name-three p {
+  color: #999999;
+  font-size: 18px;
+}
+
+.side-para h6 {
+  color: #999999;
+}
+
+.new-cmnt {
+  border-bottom: 1px solid #f0e9ff;
+}
+
+.form-datas textarea,
+input {
+  width: 100%;
+  border: 1px solid #f0e9ff;
+}
+
+.form-datas input {
+  padding: 10px;
+}
+
+.form-datas textarea {
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 200px;
+}
+
+.snd-msg button {
+  padding: 15px 50px;
+  background-color: white;
+  color: #1fc2d9;
+  border: 1px solid #1fc2d9;
+  font-size: 16px;
+}
+
+.snd-msg button:hover {
+  background-color: #1fc2d9;
+  color: white;
+}
+
+/* Column 4 */
+.storey-office a {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.storey-office a:hover {
+  color: #007bff;
+}
+
+.storey-office p {
+  font-size: 20px;
+  color: #7d84ab;
+  font-weight: 400;
+}
+
+.icon-pall i,
+span {
+  color: #999999;
+  font-size: 16px;
+}
+
+.icons:hover i,
+.icons:hover span {
+  color: #007bff;
+}
+
+.search,
+.Category {
+  background: #fbf9ff;
+  padding: 0 50px;
+}
+
+.btn-search button {
+  font-size: 16px;
+  color: #1fc2d9;
+  border-color: #1fc2d9;
+  background-color: white;
+  padding: 10px 40px;
+  border: 1px solid;
+  width: 100%;
+}
+
+.sea-key input {
+  padding: 10px 40px;
+  width: 100%;
+  border: 1px solid #f0e9ff;
+}
+
+.Category ul {
+  list-style-type: none;
+  font-size: 20px;
+  color: #7d84ab;
+}
+
+.Category li:not(:last-child) {
+  border-bottom: 1px solid #f0e9ff;
+}
+
+.Category li:hover {
+  color: #007bff;
+}
+
+.Category h4 {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #f0e9ff;
+  font-weight: 600;
+}
+
+.recent-post {
+  background: #fbf9ff;
+  padding: 0 50px;
+}
+
+.recent-post h4 {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #f0e9ff;
+  font-weight: 600;
+}
+
+.astro .tele {
+  color: #234262;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.astro .tele:hover {
+  color: #007bff;
+}
+
+.astro .timeall {
+  color: #7d84ab;
+}
+
+.clouds ul {
+  list-style-type: none;
+}
+
+.first-rowss li {
+  border: 1px solid #eeeeee;
+  padding: 3px 15px;
+}
+
+.clouds {
+  background: #fbf9ff;
+  padding: 0 50px;
+}
+
+.second-rowss li {
+  border: 1px solid #eeeeee;
+  padding: 3px 20px;
+}
+
+.third-rowss li {
+  border: 1px solid #eeeeee;
+  padding: 3px 15px;
+}
+
+.fourth-rowss li {
+  border: 1px solid #eeeeee;
+  padding: 3px 20px;
+}
+
+.clouds h4 {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #f0e9ff;
+  font-weight: 600;
+}
+
+.clouds li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.clouds li:hover {
+  background-color: #1fc2d9;
+  color: white;
+}
+
+.feeds-insta {
+  background: #fbf9ff;
+  padding: 0 50px;
+}
+
+.feeds-insta h4 {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #f0e9ff;
+  font-weight: 600;
+}
+
+.news {
+  color: #234262;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #f0e9ff;
+  font-weight: 600;
+}
+
+.btn-searchi button {
+  font-size: 18px;
+  color: #1fc2d9;
+  border-color: #1fc2d9;
+  background-color: white;
+  padding: 15px 50px;
+  border: 1px solid;
+  width: 100%;
+}
+
+.storey-office a {
+  text-decoration: none;
+}
+
+.btn-searchi button:hover {
+  background-color: #1fc2d9;
+  color: white;
+}

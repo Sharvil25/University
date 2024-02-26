@@ -1,0 +1,145 @@
+<section>
+  <app-background-image title="Blog"></app-background-image>
+</section>
+
+<section class="blog-one">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5">
+        <div class="all-offi mb-5" *ngFor="let i of blogdata" y>
+          <div class="single-img position-relative">
+            <img [src]="i.img" />
+            <div class="small-tag">
+              <p class="datess mb-0">{{ i.date }}</p>
+              <p class="paras">{{ i.month }}</p>
+            </div>
+          </div>
+
+          <div class="px-4 storey-office pt-5">
+            <h2>
+              <a routerLink="/SingleBlog">{{ i.link }}</a>
+            </h2>
+            <p>{{ i.para }}</p>
+          </div>
+          <div class="d-flex px-4 py-5 icon-pall">
+            <div class="travel icons">
+              <i [class]="i.icon"></i>
+              <span class="ms-2 useall">{{ i.travel }}</span>
+            </div>
+
+            <div class="px-2">{{ i.line }}</div>
+
+            <div class="commentsss icons">
+              <i [class]="i.icons"></i>
+              <span class="ms-2 cmnt">{{ i.cmnt }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 right-task">
+        <div class="search py-4 text-center">
+          <div class="sea-key">
+            <input type="text" placeholder="Search Keyword" />
+          </div>
+
+          <div class="pt-4 btn-search">
+            <button type="submit">SEARCH</button>
+          </div>
+        </div>
+
+        <div class="Category my-4 py-4">
+          <h4 class="py-3">Category</h4>
+          <ul class="ps-0 pt-2">
+            <li *ngFor="let i of fooddata" class="py-3">
+              {{ i.name }} ({{ i.count }})
+            </li>
+          </ul>
+        </div>
+
+        <div class="recent-post py-4">
+          <h4 class="py-3">Recent Post</h4>
+          <div>
+            <div
+              class="d-flex align-items-center gap-3 mb-2 pt-3"
+              *ngFor="let i of recentpost"
+            >
+              <img [src]="i.img" />
+              <div class="astro">
+                <p class="mb-0 tele">
+                  {{ i.name }}
+                </p>
+                <p class="mb-0 timeall">
+                  {{ i.date }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clouds my-4 py-4">
+          <h4 class="py-3">Tag Clouds</h4>
+          <ul class="ps-0">
+            <div class="d-flex gap-2 first-rowss pt-4 pb-2">
+              <li>Project</li>
+              <li>Love</li>
+              <li>Technology</li>
+            </div>
+
+            <div class="d-flex gap-2 second-rowss pb-2">
+              <li>travel</li>
+              <li>restaurant</li>
+            </div>
+
+            <div class="d-flex gap-2 third-rowss pb-2">
+              <li>life style</li>
+              <li>design</li>
+            </div>
+
+            <div class="fourth-rowss d-flex pb-2">
+              <li>illustration</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="row feeds-insta my-4 py-4">
+          <h4 class="py-3">Instagram Feeds</h4>
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/feedsflower.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/returnfeed.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/feedstree.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/paint.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/van.webp" />
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <img src="/assets/Image/glasstea.webp" />
+          </div>
+        </div>
+
+        <div class="search py-4">
+          <h4 class="py-3 news">Newsletter</h4>
+          <div class="sea-key pt-4">
+            <input type="text" placeholder="Enter Email" />
+          </div>
+
+          <div class="pt-4 btn-searchi">
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

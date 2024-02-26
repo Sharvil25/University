@@ -1,0 +1,77 @@
+/* section1 */
+.laptop-boy {
+  background: url(/assets/Image/banner.png.webp) center top;
+  height: 100vh;
+}
+
+.skills p {
+  font-size: 70px;
+  font-weight: bold;
+  color: #234262;
+  line-height: 80px;
+}
+
+.btns button {
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+.btns .tour {
+  padding: 20px;
+}
+
+.start button:hover {
+  background-color: white;
+  color: #1fc2d9;
+  border: 1px solid;
+  border-color: #1fc2d9;
+}
+
+.start button {
+  background: #1fc2d9;
+  color: white;
+  border: none;
+}
+
+.tour button {
+  background-color: white;
+  border: 1px solid;
+  font-weight: 400;
+}
+
+.tour button:hover {
+  border: 1px solid #77899d;
+  background-color: #77899d;
+  color: white;
+}
+
+/* Section2 */
+
+.icon i {
+  border-radius: 50%;
+  background-color: white;
+  color: #ebb830;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+}
+
+.icon {
+  border-radius: 10px;
+}
+
+.scholarship p {
+  font-size: 20px;
+}
+
+.scholarship h1 {
+  color: white;
+  font-weight: 500;
+}
+
+.three-Scholar {
+  background: #f8fafe;
+}

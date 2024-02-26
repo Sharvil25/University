@@ -1,0 +1,43 @@
+/* header {
+  transition: all 0.5s ease-in-out;
+} */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.96);
+  animation: scrollHeader 0.3s 1;
+}
+@keyframes scrollHeader {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+.navdetail {
+  list-style-type: none;
+}
+
+.navdetail a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.heading button {
+  background: #234262;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,54 @@
+.all-newss {
+  margin-bottom: 100px;
+}
+
+.two-image img {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.two-image img:hover {
+  scale: 1.1;
+}
+
+.tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+.exp1 {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  font-family: "Abril Fatface";
+  color: #234262;
+}
+
+.recent-head {
+  font-family: "Abril Fatface";
+  color: #234262;
+}
+
+.recent-head h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.recent-head p {
+  font-size: 25px;
+  color: #7d84ab;
+}
+
+.font-date {
+  color: #7d84ab;
+}
+
+.clg-exp {
+  border: 1px solid #f2f3f4;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 0;
+}

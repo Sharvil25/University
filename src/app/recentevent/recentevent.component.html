@@ -1,0 +1,37 @@
+<section class="re-all">
+  <div class="container recent-data">
+    <div class="event-head text-center my-5">
+      <h1>Recent Event</h1>
+      <p class="head-para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor
+      </p>
+      <p class="head-para">incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="row cont-recent mb-4 rounded-4" *ngFor="let i of recent">
+      <div class="col-lg-3 left-date" [style.background-color]="i.colour">
+        <div class="dates text-center py-4">
+          <h2>{{ i.data }}</h2>
+          <p>{{ i.Fulldate }}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-9 right-content ps-5 pt-5">
+        <div class="head-para">
+          <h2>
+            <a routerLink="/Event/EventDetails">{{ i.heading }}</a>
+          </h2>
+          <div class="d-flex gap-4 location-para pt-2">
+            <div><i class="fa-regular fa-clock me-2"></i> {{ i.time }}</div>
+            <div>
+              <i class="fa-solid fa-calendar-days me-2"></i>{{ i.anotherdate }}
+            </div>
+            <div>
+              <i class="fa-solid fa-location-dot me-2"></i>{{ i.location }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

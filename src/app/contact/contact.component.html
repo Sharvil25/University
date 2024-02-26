@@ -1,0 +1,62 @@
+<section>
+  <app-background-image title="Contact"></app-background-image>
+</section>
+
+<div class="container">
+  <iframe
+    class="w-100 py-5"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60519.47367750943!2d73.7503248486328!3d18.5529684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf0eed1beca7%3A0xf07ab6b613c2af51!2sSavitribai%20Phule%20Pune%20University!5e0!3m2!1sen!2sin!4v1708971340385!5m2!1sen!2sin"
+    height="600"
+    style="border: 0"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
+<section class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 cont-data">
+        <form class="row form-datas py-5">
+          <h4 class="py-2">Get In Touch</h4>
+
+          <div class="col-lg-12">
+            <textarea>Message</textarea>
+          </div>
+
+          <div class="col-lg-6 py-5">
+            <input type="text" placeholder="Enter Your Name" />
+          </div>
+
+          <div class="col-lg-6 py-5">
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="col-lg-12">
+            <input type="text" placeholder="Enter Subject" />
+          </div>
+
+          <div class="py-5 snd-msg">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-4 py-5">
+        <div class="pt-5" *ngFor="let i of lastdata">
+          <div class="d-flex mx-5 gap-2">
+            <div class="icon-last px-2">
+              <i [class]="i.icon"></i>
+            </div>
+
+            <div class="para-name">
+              <h6>{{ i.name }}</h6>
+              <p>{{ i.para }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

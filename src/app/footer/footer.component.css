@@ -1,0 +1,57 @@
+.foot-all {
+  background: #232637;
+  color: white;
+}
+
+.left-foot input {
+  flex: 1;
+}
+
+.sub-in button {
+  background: #ebb830;
+  font-size: 15px;
+  padding: 15px 40px;
+  border: none;
+  color: white;
+}
+
+.sub-in input {
+  border: none;
+}
+
+.iconss-all {
+  font-size: 20px;
+}
+
+.iconss-all div:hover {
+  background: #17a2b8;
+}
+
+.face-icon {
+  background: #3b5998;
+  padding: 12px 25px;
+}
+
+.twitter-icon {
+  background: #1da1f2;
+  padding: 12px 25px;
+}
+
+.google-icon {
+  background: #dd4b39;
+  padding: 12px 25px;
+}
+
+.link-icon {
+  background: #0077b5;
+  padding: 12px 25px;
+}
+
+.low-data {
+  font-size: 18px;
+  color: #7a838b;
+}
+
+.stay-up h1 {
+  font-size: 35px;
+}
