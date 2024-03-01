@@ -6,6 +6,23 @@
   list-style-type: none;
 }
 
+@media (max-width: 600px) {
+  .select ul {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 350px) {
+  .course-link a {
+    display: block;
+    flex-direction: column;
+    width: 50%;
+    overflow: hidden;
+  }
+} */
+
 .select li {
   font-size: 20px;
   font-weight: 400;

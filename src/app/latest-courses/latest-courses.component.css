@@ -1,6 +1,6 @@
 .two-image::before {
   content: "";
-  background: linear-gradient(rgba(23, 47, 72, 0.871), rgba(23, 47, 72, 0.871)),
+  background: linear-gradient(rgba(35, 48, 61, 0.871), rgba(23, 47, 72, 0.871)),
     url(/assets/Image/back.png.webp);
   position: absolute;
   left: 0;
@@ -8,6 +8,8 @@
   bottom: 0;
   width: 60%;
   z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .two-image::after {
   content: "";
@@ -17,6 +19,8 @@
   top: 0;
   bottom: 0;
   width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -58,7 +62,19 @@
   padding-bottom: 50px;
 }
 
+@media (max-width: 991px) {
+  .left-course {
+    display: block;
+    flex-direction: column;
+  }
+  .two-image::before {
+    width: 100%;
+  }
 
+  .two-image::after {
+    display: none;
+  }
+}
 
 .icon-lab button {
   font-size: 18px;
@@ -73,4 +89,7 @@
   color: white;
   background-color: #1fc2d9;
   border: none;
+}
+
+@media (max-width: 767px) {
 }

@@ -39,10 +39,21 @@
   color: #7d84ab;
 }
 
-.head-para h2 a {
+.head-para p a {
   font-family: "Abril Fatface";
   color: #234262;
   font-weight: bolder;
   font-size: 35px;
   text-decoration: none;
+}
+
+@media (max-width: 550px) {
+  .location-para {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .cont-recent {
+    width: 100%;
+  }
 }

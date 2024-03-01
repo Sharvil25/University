@@ -11,6 +11,14 @@
   font-weight: 400;
 }
 
+@media (max-width: 600px) {
+  .select ul {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 .select ul {
   background: #f8fafe;
 }

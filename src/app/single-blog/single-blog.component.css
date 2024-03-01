@@ -209,7 +209,10 @@ span {
 }
 
 .search,
-.Category {
+.Category,
+.clouds,
+.feeds-insta,
+.recent-post {
   background: #fbf9ff;
   padding: 0 50px;
 }
@@ -251,11 +254,6 @@ span {
   font-weight: 600;
 }
 
-.recent-post {
-  background: #fbf9ff;
-  padding: 0 50px;
-}
-
 .recent-post h4 {
   color: #234262;
   font-family: "Poppins", sans-serif;
@@ -284,11 +282,6 @@ span {
 .first-rowss li {
   border: 1px solid #eeeeee;
   padding: 3px 15px;
-}
-
-.clouds {
-  background: #fbf9ff;
-  padding: 0 50px;
 }
 
 .second-rowss li {
@@ -323,11 +316,6 @@ span {
   color: white;
 }
 
-.feeds-insta {
-  background: #fbf9ff;
-  padding: 0 50px;
-}
-
 .feeds-insta h4 {
   color: #234262;
   font-family: "Poppins", sans-serif;
@@ -356,7 +344,22 @@ span {
   text-decoration: none;
 }
 
+.feeds-insta img {
+  width: 100%;
+}
+
 .btn-searchi button:hover {
   background-color: #1fc2d9;
   color: white;
+}
+
+@media (max-width: 576px) {
+  .search,
+  .Category,
+  .clouds,
+  .feeds-insta,
+  .recent-post {
+    background: #fbf9ff;
+    padding: 0 20px;
+  }
 }

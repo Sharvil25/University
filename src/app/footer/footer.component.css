@@ -55,3 +55,11 @@
 .stay-up h1 {
   font-size: 35px;
 }
+
+@media (max-width: 576px) {
+  .subscribeInput input,
+  .subscribeInput button {
+    height: 50px;
+    width: 100%;
+  }
+}

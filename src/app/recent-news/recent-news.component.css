@@ -52,3 +52,10 @@
   border-bottom-right-radius: 15px;
   border-top: 0;
 }
+
+@media (max-width: 350px) {
+  .font-date {
+    display: block;
+    flex-direction: column;
+  }
+}
