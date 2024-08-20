@@ -1,17 +1,31 @@
-<header class="py-3">
-  <div class="container">
-    <div class="uni_Image d-sm-flex justify-content-between align-items-center">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container d-flex justify-content-between align-items-center">
       <div class="logo">
         <img src="/assets/Image/logo.png.webp" />
       </div>
-      <div class="d-sm-flex gap-2 heading">
-        <ul class="navdetail d-lg-flex gap-2 align-items-center mb-0">
-          <li *ngFor="let i of navdata">
-            <a [routerLink]="i.url">{{ i.name }}</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end gap-2 heading"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav align-items-start ps-2">
+          <li class="nav-item" *ngFor="let i of navdata">
+            <a class="nav-link" [routerLink]="i.url">{{ i.name }}</a>
           </li>
         </ul>
-        <button>Apply Now</button>
+        <button class="d-none d-lg-block">Apply Now</button>
       </div>
     </div>
-  </div>
+  </nav>
 </header>

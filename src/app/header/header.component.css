@@ -1,29 +1,8 @@
-/* header {
-  transition: all 0.5s ease-in-out;
-} */
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.96);
-  animation: scrollHeader 0.3s 1;
-}
-@keyframes scrollHeader {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
-.navdetail {
+.navbar-nav {
   list-style-type: none;
 }
 
-.navdetail a {
+.navbar-nav a {
   text-decoration: none;
   color: black;
   font-weight: 600;
@@ -42,9 +21,17 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 991px) and (min-width: 576px) {
-  .heading {
-    display: inline-block;
-    flex-direction: column;
+@media (max-width: 991px) {
+  .navbar-nav a {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 13px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
   }
 }

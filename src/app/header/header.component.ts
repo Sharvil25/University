@@ -32,4 +32,10 @@ export class HeaderComponent {
       url: '/Contact',
     },
   ];
+
+  isDisplay = false;
+  setIsDisplay = () => {
+    console.log('Dfdsg');
+    this.isDisplay = !this.isDisplay;
+  };
 }
